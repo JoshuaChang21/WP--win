@@ -1,39 +1,113 @@
-#body{
-  width:1000px
-  margin:0 auto;
+﻿@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+
+#body2{
+  width:60%;
+  margin:auto;
 }
 
+body{
+  background-image:url(tree_bark.png);
+  border-radius:1em;
+  padding:1em;
+}
 
+.courseinfo h2{
+  color:#0000CC;
+  font-size:2em;
+  border-bottom:1px solid;
+}
 
-#left{
-  border-left: 5px solid #FF5511;
-  background-color:#DDDDDD;
+.courseobj h2{
+  color:#EE7700;
+  font-size:2em;
+  font-family:impact;
+}
+
+.core h3 , .form h3{
+  color:#7700FF;
+  font-size:2em;
+  font-family:Microsoft YaHei;
+}
+
+.core h4{
+  color:black;
+  font-size:20px;
+}
+
+.courseinfo h4{
+  width:175px;
+  margin-left:5%;
+  color:#FF8800;
+  font: 16px/1.5 monospace;
+  border-style:inset;
+  border-width:5px;
+  border-color:gray;
+}
+
+.courseinfo h3{
+  font-family:cursive;
+}
+
+#course1 img ,.core img{
+  width:75%;
+  padding:1em;
+  box-sizing:border-box;
+  vertical-align= "middle";
+}
+
+#course1{
+  width:100%;
+}
+
+.coursedes, .classsch , .required , .core1{
+  list-style-type:none;
+}
+
+.course123{
+  margin-left:5%;
+  padding:3px 10px;
+  text-align: center;
+}
+
+ .classsch>li{
+  padding:3px 10px;
+  text-align: left;
+  font-family:cursive;
+}
+
+.coursedes>li , .course123{
+font-family:Microsoft JhengHei;
+font-size:20px;
+}
+.coursedes>li:nth-child(odd), .classsch>li:nth-child(even), .course123{
+  background-color:rgba(255,255,0,0.5);
+}
+
+.required{
+  margin-left:25%;
+  width:300px;
+  border-style:dashed;
+  border-width:8px;
+  border-color:#8C0044;
+  vertical-align:middle;
+}
+
+.core1{
+  margin-left:15%;
+  width:500px;
+  border-style:dashed;
+  border-width:8px;
+  border-color:#8C0044;
+  vertical-align:middle;
+}
+
+.required >li {
+  margin:5px;
+}
+
+.ref {
+  background-color:rgba(255,0,0,0.5);
   width:50%;
-  float:left;
-  height:25px;
-  margin-right: 5px;
+  border-style:ridge;
 }
 
-#left2{
-  
-  height:975px;
-  margin-right: 5px;
-  
-}
-
-
-#middle{
-  float:left;
-  margin-right:10px;
-}
-
-#right{
-  float:left;
-  background-color:white
-  width:40%;
-  height:1000px;
-  text-align:left;
-  
-}
-  
-  
